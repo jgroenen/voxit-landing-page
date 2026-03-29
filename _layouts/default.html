@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Voxit
+    </title>
+    <link rel="icon" href="{{ "/assets/img/Voxit_icon_black.svg" | relative_url }}" type="image/svg+xml">
+    <link rel="stylesheet" href="{{ "/assets/css/default.css" | relative_url }}" />
+</head>
+
+<body class="color-bg-neutral-1">
+    <div class="header-block p-y4">
+        <div class="lyt">
+            <div class="lyt-1">
+                <div class="u-flex u-space-between u-align-center">
+                    <a href="/">
+                        <img src="{{ "/assets/img/Voxit_logo_black.svg" | relative_url }}" class="size-header-logo" style="width:300px">
+                    </a>
+                    <nav class="u-display-none u-md-display-block">
+                        {% for item in site.data.menu %}
+                            <a href="{{ item.url }}" class="text-menu m-l5 u-display-inline-block ">{{ item.title }}</a>
+                        {% endfor %}
+                    </nav>
+
+                    <a href="https://gitlab.com/voxit"
+                        class="text-menu m-l5 u-flex u-align-center u-box-shadow p-x3 p-y2 u-border-radius"
+                        target="_blank">
+                        <img src="https://www.polisnl.org/user/themes/polis-nl/img/logo-gitlab.svg" style="height: 24px"
+                            class="m-r3">
+                        <span class="m-r2">Gitlab</span>
+                        <img src="https://www.polisnl.org/user/themes/polis-nl/icon-set/external-link.svg"
+                            class="icon icon-size-16">
+                    </a>
+
+                    <div class="u-md-display-none">
+                        <a href="#" class="burger" data-js-click="mobileMenu">
+                            <div class="burger-line burger-line-1"></div>
+                            <div class="burger-line burger-line-2"></div>
+                            <div class="burger-line burger-line-3"></div>
+                            <img src="https://www.polisnl.org/user/themes/polis-nl/icon/close.svg" class="burger-close">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-menu" data-mobile-menu>
+        <nav class="u-md-display-none">
+            {% for item in site.data.menu %}
+                <hr class="hr">
+                <a href="{{ item.url }}" class="text-menu m-l5 u-display-block">{{ item.title }}</a>
+            {% endfor %}
+        </nav>
+    </div>
+    <main>
+        <div class="hero-block color-bg-brand-4 p-y7">
+            <div class="lyt">
+                <div class="lyt-1 lyt-md-1-2">
+                    <div class="p-r3">
+                        <h1 class="text-hero m-b4">
+                            &ldquo;Democracy needs infrastructure that anyone can use, modify, and improve.&rdquo;
+                            &mdash; Audrey Tang
+                        </h1>
+                        <p class="text-intro m-b5">
+                            Voxit is an open-source, research-backed, and adaptable platform designed to power
+                            collective sense-making.
+                        </p>
+                        <div class="m-b4">
+                            <a href="https://prototype.polisnl.org/statement?v=modal-active" class="btn m-r5 m-b3"
+                                target="_blank">
+                                Check out Demo
+                            </a>
+                            <!-- <a href="#what-is-voxit" class="btn btn-secondary m-b3">
+                                About Voxit
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="lyt-1 lyt-md-1-2 u-text-center">
+                    <img src="https://www.polisnl.org/user/themes/polis-nl/img/placeholder-illustration-2.svg">
+                </div>
+            </div>
+        </div>
+        {% include what-is-voxit.html %}
+        {% include unique-aspects.html %}
+        <!-- {% include use-cases.html %} -->
+        <!-- {% include faq.html %} -->
+        {% include partners.html %}
+    </main>
+    <footer class="p-y5">
+        <div class="lyt">
+            <div class="lyt-1">
+                <hr class="hr">
+                <div class="u-flex p-y4">
+                    <!-- <a href="/contact" class="text-footer-link">Contact</a> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://www.polisnl.org/user/themes/polis-nl/js/build.js" defer></script>
+</body>
+
+</html>

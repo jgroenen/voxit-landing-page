@@ -1,0 +1,17 @@
+<div class="unique-aspects-block m-b7">
+    <div class="lyt">
+        <div class="lyt-1">
+            <h2 class="text-h1 u-text-center m-b5">
+                What makes Voxit unique?
+            </h2>
+        </div>
+        {% for aspect in site.data.aspects %}
+        <div class="lyt-1 lyt-md-1-2 p-y4 p-md-y6 p-x4 p-md-x7">
+            <div class="unique-aspect u-flex u-direction-column">
+                <h2 class="text-h3 m-b2">{{ aspect.title }}</h2>
+                <p class="text-body">{{ aspect.description}}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

@@ -1,0 +1,22 @@
+
+<div class="partnerss-block p-y7">
+    <div class="lyt">
+        <div class="lyt-1">
+            <h2 class="text-h1 u-text-center m-b5">Partners</h2>
+            <div class="markup-zone" style="display: flex">
+                {% for partner in site.data.partners %}
+                <div style="width: auto">
+                    <div style="border: 1rem solid white">
+                        <img style="width: 100%; background: white" src="{{ partner.logo | default: "
+                            https://placehold.co/600x400/EEE/31343C" }}" alt="{{ partner.name }} Logo">
+                    </div>
+                    <h2>{{ partner.name }}</h2>
+                    <p>{{ partner.description }}</p>
+                    <a href="{{ partner.url }}" target="_blank">Learn more</a>
+                </div>
+                {% endfor %}
+            </div>
+            <h2 class="text-h1 u-text-center m-b5 m-y7">Join the Movement Together, let’s build the European infrastructure where democracy thrives!</h2>
+        </div>
+    </div>
+</div>

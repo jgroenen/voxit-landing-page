@@ -1,0 +1,12 @@
+- name: Voxit Finland
+  url: https://www.voxit.org/
+  logo: https://www.voxit.org/wp-content/uploads/2025/10/Voxit_logo_web.png
+  description: "The Voxit community openly develops and maintains a community version of the platform. All community output is released under an open license."
+- name: PolisNL
+  url: https://polisnl.org/
+  logo: https://polisnl.org/user/themes/polis-nl/img/logo-polis-nl.svg
+  description: "Polis NL is a partnership between government bodies. Together, we are working on a secure, responsible, and transparent adaptation of the open-source application Voxit for the Dutch context."
+- name: PolisNL
+  url: https://polisnl.org/
+  logo: https://polisnl.org/user/themes/polis-nl/img/logo-polis-nl.svg
+  description: "Polis NL is a partnership between government bodies. Together, we are working on a secure, responsible, and transparent adaptation of the open-source application Voxit for the Dutch context."
