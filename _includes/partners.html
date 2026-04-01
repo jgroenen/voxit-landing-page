@@ -8,7 +8,7 @@
                 <div style="width: auto; max-width: 200px; margin: 20px;">
                     <a href="{{ partner.url }}" target="_blank">
                         <div style="border: 1rem solid white">
-                            <img style="filter: grayscale(100%); height: 80px; background: white" src="{{ partner.logo | default: "
+                            <img style="filter: grayscale(100%); height: 80px; background: white" src="{{ partner.logo | relative_url | default: "
                                 https://placehold.co/600x400/EEE/31343C" }}" alt="{{ partner.name }} Logo">
                         </div>
                     </a>
