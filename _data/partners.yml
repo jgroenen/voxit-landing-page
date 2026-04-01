@@ -1,12 +1,40 @@
-- name: Voxit Finland
-  url: https://www.voxit.org/
-  logo: https://www.voxit.org/wp-content/uploads/2025/10/Voxit_logo_web.png
-  description: "The Voxit community openly develops and maintains a community version of the platform. All community output is released under an open license."
-- name: PolisNL
-  url: https://polisnl.org/
-  logo: https://polisnl.org/user/themes/polis-nl/img/logo-polis-nl.svg
-  description: "Polis NL is a partnership between government bodies. Together, we are working on a secure, responsible, and transparent adaptation of the open-source application Voxit for the Dutch context."
-- name: PolisNL
-  url: https://polisnl.org/
-  logo: https://polisnl.org/user/themes/polis-nl/img/logo-polis-nl.svg
-  description: "Polis NL is a partnership between government bodies. Together, we are working on a secure, responsible, and transparent adaptation of the open-source application Voxit for the Dutch context."
+- name: Agora
+  url: https://www.agoracitizen.network/
+  logo: /assets/img/agora.svg
+  description: "Agora helps people overcome disagreement and find consensus, for more democratic and efficient decision-making."
+- name: Beta Break
+  url: https://betabreak.net/
+  logo: /assets/img/betabreak.svg
+  description: "Beta Break provides expertise in enabling public sector and nonprofit organisations to adopt and implement open-source solutions."
+- name: Copernicani
+  url: https://copernicani.it/?lang=en
+  logo: /assets/img/copernicani.svg
+  description: "Copernicani is an independent, cross-party advocacy group engaged on promoting innovation."
+- name: COSS
+  url: https://coss.fi/
+  logo: /assets/img/coss.svg
+  description: "COSS – the Finnish Centre for Open Systems and Solutions is a non-profit association that promotes open source, open data, open standards and APIs. Internationally COSS is known as one of the oldest and most active centres for openness."
+- name: CrownShy
+  url: https://crown-shy.com/
+  logo: /assets/img/crownshy.svg
+  description: ""
+- name: East of Moon
+  url: https://www.eastofmoon.com/
+  logo: /assets/img/east-of-moon.svg
+  description: "Community centred innovation labs"
+- name: Fre(i)e Software GmbH
+  url: https://freiesoftware.gmbh/en/
+  logo: /assets/img/freie-software.svg
+  description: "Professional platform for exclusively contributing to the Free & Libre Open Source ecosystem on enterprise business level. »Everything we do is Open Source, we are not available for less.«"
+- name: Sitra
+  url: https://www.sitra.fi/en/
+  logo: /assets/img/sitra.svg
+  description: "Sitra, the Finnish Innovation Fund, promotes and finances the renewal of Finland. Our mission is to promote well-being and accelerate economic growth within the limits of nature’s carrying capacity. Learn more about our work and join us."
+- name: Tiltshift
+  url: https://www.tiltshift.nl
+  logo: /assets/img/tiltshift.svg
+  description: "Tiltshift is a consultancy and design agency that empowers frontline public services with innovative digital tools."
+- name: Provincie Zuid-Holland
+  url: https://www.zuid-holland.nl/
+  logo: /assets/img/provincie-zuid-holland.svg
+  description: "Building a powerful province. Where it is good living, working and life for everyone. Now and in the future. In which we offer our inhabitants perspective and do not saddle future generations with challenges that we can already tackle now."

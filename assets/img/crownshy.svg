@@ -1,0 +1,11 @@
+<svg height="60" width="140" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        text {
+        /* Specify the system or custom font to use */
+        font-family: "Open Sans",ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+        font-weight: 600;
+        font-size: 1.2em;
+        }
+    </style>
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#333333">CrownShy</text>
+</svg>
